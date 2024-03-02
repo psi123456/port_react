@@ -1,0 +1,51 @@
+/* Main.css */
+.card-enter {
+  opacity: 0.01;
+  transform: translateY(-20px);
+  transition: opacity 1.5s ease-in, transform 5s ease-in;
+}
+
+.card-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1.5s ease-in, transform 5s ease-in;
+}
+
+.card-exit {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1.5s ease-in, transform 5s ease-in;
+}
+
+.card-exit-active {
+  opacity: 0.01;
+  transform: translateY(-20px);
+  transition: opacity 1.5s ease-in, transform 5s ease-in;
+}
+
+/* Main.css 파일 내에 추가 */
+.nav-link {
+  color: #ffffff; /* 텍스트 색상을 흰색으로 설정 */
+  text-decoration: none; /* 텍스트 밑줄 제거 */
+  font-size: 16px; /* 글씨 크기 설정 */
+}
+
+/* 또 다른 스타일 추가 예시 */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* 이런식으로 필요한 다른 스타일을 추가할 수 있습니다. */
